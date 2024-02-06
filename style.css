@@ -1,16 +1,21 @@
+
 *{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 }
 
-.intro{
-	font-size: 25px;
-	font-weight: bold;
-	text-transform: uppercase;
+.Intro p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #333; 
 }
 
-.image{
-	height: 40px;
-	width: 30px;
+.image img{
+    height: 350px;
+    width: 300px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    align-items: center;
 }
+
