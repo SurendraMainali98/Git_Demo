@@ -8,9 +8,20 @@ body {
 }
 
 /* Intro Section */
-.Intro {
+.intro {
     text-align: center;
     padding: 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
 }
 
 /* Image */
@@ -58,11 +69,11 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: lightgrey;
+    color: black;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
